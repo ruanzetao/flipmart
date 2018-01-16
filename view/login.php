@@ -11,24 +11,25 @@
 	<meta name="robots" content="all">
 
 	<title>Flipmart premium HTML5 & CSS3 Template</title>
+	
 
 	<!-- Bootstrap Core CSS -->
-	<link rel="stylesheet" href="../public/assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="public/assets/css/bootstrap.min.css">
 
 	<!-- Customizable CSS -->
-	<link rel="stylesheet" href="../public/assets/css/main.css">
-	<link rel="stylesheet" href="../public/assets/css/blue.css">
-	<link rel="stylesheet" href="../public/assets/css/owl.carousel.css">
-	<link rel="stylesheet" href="../public/assets/css/owl.transitions.css">
-	<link rel="stylesheet" href="../public/assets/css/animate.min.css">
-	<link rel="stylesheet" href="../public/assets/css/rateit.css">
-	<link rel="stylesheet" href="../public/assets/css/bootstrap-select.min.css">
+	<link rel="stylesheet" href="public/assets/css/main.css">
+	<link rel="stylesheet" href="public/assets/css/blue.css">
+	<link rel="stylesheet" href="public/assets/css/owl.carousel.css">
+	<link rel="stylesheet" href="public/assets/css/owl.transitions.css">
+	<link rel="stylesheet" href="public/assets/css/animate.min.css">
+	<link rel="stylesheet" href="public/assets/css/rateit.css">
+	<link rel="stylesheet" href="public/assets/css/bootstrap-select.min.css">
 
 
 
 
 	<!-- Icons/Glyphs -->
-	<link rel="stylesheet" href="../public/assets/css/font-awesome.css">
+	<link rel="stylesheet" href="public/assets/css/font-awesome.css">
 
 	<!-- Fonts --> 
 	<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
@@ -61,7 +62,7 @@
 							<a href="#" class="facebook-sign-in"><i class="fa fa-facebook"></i> Sign In with Facebook</a>
 							<a href="#" class="twitter-sign-in"><i class="fa fa-twitter"></i> Sign In with Twitter</a>
 						</div>
-						<form class="register-form outer-top-xs" role="form" action="">
+						<form class="register-form outer-top-xs" role="form" action="" method="POST">
 							<div class="form-group">
 								<label class="info-title" for="exampleInputEmail1">Email Address <span>*</span></label>
 								<input type="text/css" class="form-control unicase-form-control text-input" id="email" name="email" >
@@ -120,61 +121,61 @@
 						<div id="brand-slider" class="owl-carousel brand-slider custom-carousel owl-theme">
 							<div class="item m-t-15">
 								<a href="#" class="image">
-									<img data-echo="../public/assets/images/brands/brand1.png" src="../public/assets/images/blank.gif" alt="">
+									<img data-echo="public/assets/images/brands/brand1.png" src="public/assets/images/blank.gif" alt="">
 								</a>	
 							</div><!--/.item-->
 
 							<div class="item m-t-10">
 								<a href="#" class="image">
-									<img data-echo="../public/assets/images/brands/brand2.png" src="../public/assets/images/blank.gif" alt="">
+									<img data-echo="public/assets/images/brands/brand2.png" src="public/assets/images/blank.gif" alt="">
 								</a>	
 							</div><!--/.item-->
 
 							<div class="item">
 								<a href="#" class="image">
-									<img data-echo="../public/assets/images/brands/brand3.png" src="../public/assets/images/blank.gif" alt="">
+									<img data-echo="public/assets/images/brands/brand3.png" src="public/assets/images/blank.gif" alt="">
 								</a>	
 							</div><!--/.item-->
 
 							<div class="item">
 								<a href="#" class="image">
-									<img data-echo="../public/assets/images/brands/brand4.png" src="../public/assets/images/blank.gif" alt="">
+									<img data-echo="public/assets/images/brands/brand4.png" src="public/assets/images/blank.gif" alt="">
 								</a>	
 							</div><!--/.item-->
 
 							<div class="item">
 								<a href="#" class="image">
-									<img data-echo="../public/assets/images/brands/brand5.png" src="../public/assets/images/blank.gif" alt="">
+									<img data-echo="public/assets/images/brands/brand5.png" src="public/assets/images/blank.gif" alt="">
 								</a>	
 							</div><!--/.item-->
 
 							<div class="item">
 								<a href="#" class="image">
-									<img data-echo="../public/assets/images/brands/brand6.png" src="../public/assets/images/blank.gif" alt="">
+									<img data-echo="public/assets/images/brands/brand6.png" src="public/assets/images/blank.gif" alt="">
 								</a>	
 							</div><!--/.item-->
 
 							<div class="item">
 								<a href="#" class="image">
-									<img data-echo="../public/assets/images/brands/brand2.png" src="../public/assets/images/blank.gif" alt="">
+									<img data-echo="public/assets/images/brands/brand2.png" src="public/assets/images/blank.gif" alt="">
 								</a>	
 							</div><!--/.item-->
 
 							<div class="item">
 								<a href="#" class="image">
-									<img data-echo="../public/assets/images/brands/brand4.png" src="../public/assets/images/blank.gif" alt="">
+									<img data-echo="public/assets/images/brands/brand4.png" src="public/assets/images/blank.gif" alt="">
 								</a>	
 							</div><!--/.item-->
 
 							<div class="item">
 								<a href="#" class="image">
-									<img data-echo="../public/assets/images/brands/brand1.png" src="../public/assets/images/blank.gif" alt="">
+									<img data-echo="public/assets/images/brands/brand1.png" src="public/assets/images/blank.gif" alt="">
 								</a>	
 							</div><!--/.item-->
 
 							<div class="item">
 								<a href="#" class="image">
-									<img data-echo="../public/assets/images/brands/brand5.png" src="../public/assets/images/blank.gif" alt="">
+									<img data-echo="public/assets/images/brands/brand5.png" src="public/assets/images/blank.gif" alt="">
 								</a>	
 							</div><!--/.item-->
 						</div><!-- /.owl-carousel #logo-slider -->
@@ -191,21 +192,21 @@
 			<!-- For demo purposes – can be removed on production : End -->
 
 			<!-- JavaScripts placed at the end of the document so the pages load faster -->
-			<script src="../public/assets/js/jquery-1.11.1.min.js"></script>
+			<script src="public/assets/js/jquery-1.11.1.min.js"></script>
 
-			<script src="../public/assets/js/bootstrap.min.js"></script>
+			<script src="public/assets/js/bootstrap.min.js"></script>
 
-			<script src="../public/assets/js/bootstrap-hover-dropdown.min.js"></script>
-			<script src="../public/assets/js/owl.carousel.min.js"></script>
+			<script src="public/assets/js/bootstrap-hover-dropdown.min.js"></script>
+			<script src="public/assets/js/owl.carousel.min.js"></script>
 
-			<script src="../public/assets/js/echo.min.js"></script>
-			<script src="../public/assets/js/jquery.easing-1.3.min.js"></script>
-			<script src="../public/assets/js/bootstrap-slider.min.js"></script>
-			<script src="../public/assets/js/jquery.rateit.min.js"></script>
-			<script type="text/javascript" src="../public/assets/js/lightbox.min.js"></script>
-			<script src="../public/assets/js/bootstrap-select.min.js"></script>
-			<script src="../public/assets/js/wow.min.js"></script>
-			<script src="../public/assets/js/scripts.js"></script>
+			<script src="public/assets/js/echo.min.js"></script>
+			<script src="public/assets/js/jquery.easing-1.3.min.js"></script>
+			<script src="public/assets/js/bootstrap-slider.min.js"></script>
+			<script src="public/assets/js/jquery.rateit.min.js"></script>
+			<script type="text/javascript" src="public/assets/js/lightbox.min.js"></script>
+			<script src="public/assets/js/bootstrap-select.min.js"></script>
+			<script src="public/assets/js/wow.min.js"></script>
+			<script src="public/assets/js/scripts.js"></script>
 
 			<!-- For demo purposes – can be removed on production -->
 
