@@ -1,5 +1,7 @@
 <?php
 include("Controller.php");
+include('model/connect.php');
+
 class LoginController extends Controller{
 	public function getLogin(){
 		$_Username=isset($_POST['username'])?$_POST['username']:'';
@@ -8,7 +10,7 @@ class LoginController extends Controller{
 
 		if($_Password!=''&&$_Username!=''){
 			$_LoginModel=new LoginModel();
-			$result=$_LoginModel->login($_Username,$_Password);
+			$result=$_LoginModel->Login($_Username,$_Password);
 			if($result->num_rows>0){
 				echo "123";
 				//header('Location: view/trangchu.php');
