@@ -61,14 +61,14 @@
 							<a href="#" class="facebook-sign-in"><i class="fa fa-facebook"></i> Sign In with Facebook</a>
 							<a href="#" class="twitter-sign-in"><i class="fa fa-twitter"></i> Sign In with Twitter</a>
 						</div>
-						<form class="register-form outer-top-xs" role="form">
+						<form class="register-form outer-top-xs" role="form" action="">
 							<div class="form-group">
 								<label class="info-title" for="exampleInputEmail1">Email Address <span>*</span></label>
-								<input type="text/css" class="form-control unicase-form-control text-input" id="email" >
+								<input type="text/css" class="form-control unicase-form-control text-input" id="email" name="email" >
 							</div>
 							<div class="form-group">
 								<label class="info-title" for="exampleInputPassword1">Password <span>*</span></label>
-								<input type="password" class="form-control unicase-form-control text-input" id="password" >
+								<input type="password" class="form-control unicase-form-control text-input" id="password" name="password" >
 							</div>
 							<div class="radio outer-xs">
 								<label>
@@ -82,35 +82,35 @@
 					<!-- Sign-in -->
 
 					<!-- create a new account -->
-					<div class="col-md-6 col-sm-6 create-new-account">
+					<!-- <div class="col-md-6 col-sm-6 create-new-account">
 						<h4 class="checkout-subtitle">Create a new account</h4>
 						<p class="text title-tag-line">Create your new account.</p>
 						<form class="register-form outer-top-xs" role="form">
 							<div class="form-group">
 								<label class="info-title" for="exampleInputEmail2">Email Address <span>*</span></label>
-								<input type="email" class="form-control unicase-form-control text-input" id="exampleInputEmail2" >
+								<input type="text/css" class="form-control unicase-form-control text-input" id="exampleInputEmail2" >
 							</div>
 							<div class="form-group">
 								<label class="info-title" for="exampleInputEmail1">Name <span>*</span></label>
-								<input type="email" class="form-control unicase-form-control text-input" id="exampleInputEmail1" >
+								<input type="text/css" class="form-control unicase-form-control text-input" id="exampleInputEmail1" >
 							</div>
 							<div class="form-group">
 								<label class="info-title" for="exampleInputEmail1">Phone Number <span>*</span></label>
-								<input type="email" class="form-control unicase-form-control text-input" id="exampleInputEmail1" >
+								<input type="text/css" class="form-control unicase-form-control text-input" id="exampleInputEmail1" >
 							</div>
 							<div class="form-group">
 								<label class="info-title" for="exampleInputEmail1">Password <span>*</span></label>
-								<input type="email" class="form-control unicase-form-control text-input" id="exampleInputEmail1" >
+								<input type="text/css" class="form-control unicase-form-control text-input" id="exampleInputEmail1" >
 							</div>
 							<div class="form-group">
 								<label class="info-title" for="exampleInputEmail1">Confirm Password <span>*</span></label>
-								<input type="email" class="form-control unicase-form-control text-input" id="exampleInputEmail1" >
+								<input type="text/css" class="form-control unicase-form-control text-input" id="exampleInputEmail1" >
 							</div>
 							<button type="submit" class="btn-upper btn btn-primary checkout-page-button">Sign Up</button>
 						</form>
 
 
-					</div>	
+					</div>	 -->
 					<!-- create a new account -->			</div><!-- /.row -->
 				</div><!-- /.sigin-in-->
 				<!-- ============================================== BRANDS CAROUSEL ============================================== -->
@@ -209,7 +209,7 @@
 
 			<!-- For demo purposes – can be removed on production -->
 
-			<script src="switchstylesheet/switchstylesheet.js"></script>
+			<!-- <script src="switchstylesheet/switchstylesheet.js"></script>
 
 			<script>
 				$(document).ready(function(){ 
@@ -223,7 +223,7 @@
 				$(window).bind("load", function() {
 					$('.show-theme-options').delay(2000).trigger('click');
 				});
-			</script>
+			</script> -->
 			<!-- For demo purposes – can be removed on production : End -->
 
 
