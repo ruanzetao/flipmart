@@ -11,7 +11,7 @@
 	<meta name="robots" content="all">
 
 	<title>Flipmart premium HTML5 & CSS3 Template</title>
-	
+
 
 	<!-- Bootstrap Core CSS -->
 	<link rel="stylesheet" href="public/assets/css/bootstrap.min.css">
@@ -226,8 +226,7 @@
 				});
 			</script> -->
 			<!-- For demo purposes – can be removed on production : End -->
-
-
-
-		</body>
-		</html>
+		</div>
+	</div>
+</body>
+</html>
