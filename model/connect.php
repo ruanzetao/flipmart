@@ -57,5 +57,13 @@ class Connect{
 		$this->_mysqli = NULL;
 	}
 }
+
+// $c=new Connect();
+// $sql="SELECT * FROM users";
+// $c->setQuery($sql);
+// $data=$c->execute($sql);
+// print_r($data);
+// print_r($c);
+
 //Y378bxxqR3AgoD2s4KN5KYcdv8AUX1OA1
 ?>
