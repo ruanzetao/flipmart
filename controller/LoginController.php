@@ -1,6 +1,7 @@
 <?php
 include("Controller.php");
 include('model/connect.php');
+include('model/LoginModel.php');
 
 class LoginController extends Controller{
 	public function getLogin(){

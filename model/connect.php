@@ -7,7 +7,7 @@ class Connect{
 
 	public function __construct(){
 
-		$this->_mysqli = new mysqli("localhost",'root','','php1307');
+		$this->_mysqli = new mysqli("localhost",'root','','flipmart');
 		$this->_mysqli->set_charset("utf8");
 
 		if($this->_mysqli->connect_errno){
