@@ -9,12 +9,10 @@ class LoginController extends Controller{
 		$_Password=isset($_POST['password'])?$_POST['password']:'';
 
 		//Bi loi cho nay
-		if(($_Password!='')&&($_Username!='')){
-			echo "789";
 			$_LoginModel=new LoginModel();
 			$result=$_LoginModel->Login($_Username,$_Password);
-			echo "8910";
-			if($result->num_rows>0){
+			//echo "8910";
+			if(count($result)>0){
 				echo "123";
 				return $this->loadView('home');
 			}
@@ -23,7 +21,7 @@ class LoginController extends Controller{
 				return $this->loadView('login');
 			}
 			//$db->close();
-		}
+		
 
 		//return $this->loadView('login');
 		
