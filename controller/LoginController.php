@@ -1,7 +1,7 @@
 <?php
 include('Controller.php');
 //include("model/connect.php");
-include("model/LoginModel.php");
+include('model/LoginModel.php');
 
 class LoginController extends Controller{
 	public function getLogin(){
@@ -16,13 +16,13 @@ class LoginController extends Controller{
 			echo "2";
 			if($result->num_rows>0){
 				echo "123";
-				//return $this->loadView('trangchu');
+				return $this->loadView('trangchu');
 			}
 			else{
 				echo "456";
-				//return $this->loadView('login');
+				return $this->loadView('login');
 			}
-			$db->close();
+			//$db->close();
 		}
 		
 	}
