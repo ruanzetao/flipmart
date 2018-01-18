@@ -11,19 +11,19 @@
 <title>Flipmart premium HTML5 & CSS3 Template</title>
 
 <!-- Bootstrap Core CSS -->
-<link rel="stylesheet" href="../public/assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="public/assets/css/bootstrap.min.css">
 
 <!-- Customizable CSS -->
-<link rel="stylesheet" href="../public/assets/css/main.css">
-<link rel="stylesheet" href="../public/assets/css/blue.css">
-<link rel="stylesheet" href="../public/assets/css/owl.carousel.css">
-<link rel="stylesheet" href="../public/assets/css/owl.transitions.css">
-<link rel="stylesheet" href="../public/assets/css/animate.min.css">
-<link rel="stylesheet" href="../public/assets/css/rateit.css">
-<link rel="stylesheet" href="../public/assets/css/bootstrap-select.min.css">
+<link rel="stylesheet" href="public/assets/css/main.css">
+<link rel="stylesheet" href="public/assets/css/blue.css">
+<link rel="stylesheet" href="public/assets/css/owl.carousel.css">
+<link rel="stylesheet" href="public/assets/css/owl.transitions.css">
+<link rel="stylesheet" href="public/assets/css/animate.min.css">
+<link rel="stylesheet" href="public/assets/css/rateit.css">
+<link rel="stylesheet" href="public/assets/css/bootstrap-select.min.css">
 
 <!-- Icons/Glyphs -->
-<link rel="stylesheet" href="../public/assets/css/font-awesome.css">
+<link rel="stylesheet" href="public/assets/css/font-awesome.css">
 
 <!-- Fonts -->
 <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
@@ -82,7 +82,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-3 logo-holder"> 
           <!-- ============================================================= LOGO ============================================================= -->
-          <div class="logo"> <a href="home.html"> <img src="../public/assets/images/logo.png" alt="logo"> </a> </div>
+          <div class="logo"> <a href="home.html"> <img src="public/assets/images/logo.png" alt="logo"> </a> </div>
           <!-- /.logo --> 
           <!-- ============================================================= LOGO : END ============================================================= --> </div>
         <!-- /.logo-holder -->
@@ -127,7 +127,7 @@
                 <div class="cart-item product-summary">
                   <div class="row">
                     <div class="col-xs-4">
-                      <div class="image"> <a href="detail.html"><img src="../public/assets/images/cart.jpg" alt=""></a> </div>
+                      <div class="image"> <a href="detail.html"><img src="public/assets/images/cart.jpg" alt=""></a> </div>
                     </div>
                     <div class="col-xs-7">
                       <h3 class="name"><a href="index.php?page-detail">Simple Product</a></h3>
@@ -236,7 +236,7 @@
                           </div>
                           <!-- /.col -->
                           
-                          <div class="col-xs-12 col-sm-6 col-md-4 col-menu banner-image"> <img class="img-responsive" src="../public/assets/images/banners/top-menu-banner.jpg" alt=""> </div>
+                          <div class="col-xs-12 col-sm-6 col-md-4 col-menu banner-image"> <img class="img-responsive" src="public/assets/images/banners/top-menu-banner.jpg" alt=""> </div>
                           <!-- /.yamm-content --> 
                         </div>
                       </div>
@@ -314,7 +314,7 @@
                               <li><a href="#">Memory Cards</a></li>
                             </ul>
                           </div>
-                          <div class="col-xs-12 col-sm-12 col-md-4 col-menu custom-banner"> <a href="#"><img alt="" src="../public/assets/images/banners/banner-side.png"></a> </div>
+                          <div class="col-xs-12 col-sm-12 col-md-4 col-menu custom-banner"> <a href="#"><img alt="" src="public/assets/images/banners/banner-side.png"></a> </div>
                         </div>
                         <!-- /.row --> 
                       </div>
@@ -378,8 +378,9 @@
 </header>
 
 <!-- ============================================== HEADER : END ============================================== -->
-<?php include('$view.php');?>
-
+<?php
+include_once("$view.php");
+?>
 <!-- ============================================================= FOOTER ============================================================= -->
 <footer id="footer" class="footer color-bg">
   <div class="footer-bottom">
@@ -490,11 +491,11 @@
       <div class="col-xs-12 col-sm-6 no-padding">
         <div class="clearfix payment-methods">
           <ul>
-            <li><img src="../public/assets/images/payments/1.png" alt=""></li>
-            <li><img src="../public/assets/images/payments/2.png" alt=""></li>
-            <li><img src="../public/assets/images/payments/3.png" alt=""></li>
-            <li><img src="../public/assets/images/payments/4.png" alt=""></li>
-            <li><img src="../public/assets/images/payments/5.png" alt=""></li>
+            <li><img src="public/assets/images/payments/1.png" alt=""></li>
+            <li><img src="public/assets/images/payments/2.png" alt=""></li>
+            <li><img src="public/assets/images/payments/3.png" alt=""></li>
+            <li><img src="public/assets/images/payments/4.png" alt=""></li>
+            <li><img src="public/assets/images/payments/5.png" alt=""></li>
           </ul>
         </div>
         <!-- /.payment-methods --> 
@@ -509,17 +510,17 @@
 <!-- For demo purposes – can be removed on production : End --> 
 
 <!-- JavaScripts placed at the end of the document so the pages load faster --> 
-<script src="../public/assets/js/jquery-1.11.1.min.js"></script> 
-<script src="../public/assets/js/bootstrap.min.js"></script> 
-<script src="../public/assets/js/bootstrap-hover-dropdown.min.js"></script> 
-<script src="../public/assets/js/owl.carousel.min.js"></script> 
-<script src="../public/assets/js/echo.min.js"></script> 
-<script src="../public/assets/js/jquery.easing-1.3.min.js"></script> 
-<script src="../public/assets/js/bootstrap-slider.min.js"></script> 
-<script src="../public/assets/js/jquery.rateit.min.js"></script> 
-<script type="text/javascript" src="../public/assets/js/lightbox.min.js"></script> 
-<script src="../public/assets/js/bootstrap-select.min.js"></script> 
-<script src="../public/assets/js/wow.min.js"></script> 
-<script src="../public/assets/js/scripts.js"></script>
+<script src="public/assets/js/jquery-1.11.1.min.js"></script> 
+<script src="public/assets/js/bootstrap.min.js"></script> 
+<script src="public/assets/js/bootstrap-hover-dropdown.min.js"></script> 
+<script src="public/assets/js/owl.carousel.min.js"></script> 
+<script src="public/assets/js/echo.min.js"></script> 
+<script src="public/assets/js/jquery.easing-1.3.min.js"></script> 
+<script src="public/assets/js/bootstrap-slider.min.js"></script> 
+<script src="public/assets/js/jquery.rateit.min.js"></script> 
+<script type="text/javascript" src="public/assets/js/lightbox.min.js"></script> 
+<script src="public/assets/js/bootstrap-select.min.js"></script> 
+<script src="public/assets/js/wow.min.js"></script> 
+<script src="public/assets/js/scripts.js"></script>
 </body>
 </html>
