@@ -2,8 +2,6 @@
 include('Controller.php');
 //include("model/connect.php");
 include('model/LoginModel.php');
-include('view/layout.php');
-include('view/sign-in.php');
 
 
 class LoginController extends Controller{
@@ -29,7 +27,7 @@ class LoginController extends Controller{
 			
 		
 
-		return $this->loadView('login');
+		return $this->loadView('sign-in');
 		
 	}
 }
