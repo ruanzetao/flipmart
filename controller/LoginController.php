@@ -20,14 +20,16 @@ class LoginController extends Controller{
 			$result=$_LoginModel->Login($_Username,$_Password);
 			//echo "8910";
 			if(count($result)>0){
-				return $this->loadView('home');
+
+				header("Location: public/home.html");
+				//return $this->loadView('home');
 			}
 			
-				return $this->loadView('sign-in');
+				//return $this->loadView('sign-in');
 			
 		
 
-		//return $this->loadView('login');
+		return $this->loadView('login');
 		
 	}
 }
