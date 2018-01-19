@@ -380,10 +380,13 @@ ob_start();
 </header>
 
 <!-- ============================================== HEADER : END ============================================== -->
-<?php
-include_once('$view.php');
-?>
+
 <!-- ============================================================= FOOTER ============================================================= -->
+
+<?php
+include_once("$view.php");
+?>
+
 <footer id="footer" class="footer color-bg">
   <div class="footer-bottom">
     <div class="container">

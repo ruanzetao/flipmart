@@ -1,6 +1,6 @@
 <?php
 include('Controller.php');
-//include("model/connect.php");
+include('model/connect.php');
 include('model/LoginModel.php');
 
 
@@ -20,14 +20,14 @@ class LoginController extends Controller{
 			if(count($result)>0){
 
 				header("Location: public/home.html");
-				//return $this->loadView('home');
+				return $this->loadView('home',"");
 			}
 			
 				//return $this->loadView('sign-in');
 			
 		
 
-		return $this->loadView('sign-in');
+		return $this->loadView('sign-in',"");
 		
 	}
 }
