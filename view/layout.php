@@ -384,7 +384,7 @@ ob_start();
 <!-- ============================================================= FOOTER ============================================================= -->
 
 <?php
-include_once("$view.php");
+include_once("$view.php")
 ?>
 
 <footer id="footer" class="footer color-bg">

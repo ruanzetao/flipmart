@@ -9,9 +9,6 @@ class LoginController extends Controller{
 		$_Username=isset($_POST['username'])?$_POST['username']:'';
 		$_Password=isset($_POST['password'])?$_POST['password']:'';
 
-		echo $_Username;
-		echo "<br>";
-		echo $_Password;
 
 		//Bi loi cho nay
 			$_LoginModel=new LoginModel();
@@ -19,7 +16,7 @@ class LoginController extends Controller{
 			//echo "8910";
 			if(count($result)>0){
 
-				header("Location: public/home.html");
+				//header("Location: public/home.html");
 				return $this->loadView('home',"");
 			}
 			
